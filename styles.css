@@ -13,7 +13,7 @@
 
 .containerLeft {
   background-color: black;
-  height: 100vh;
+  overflow: hidden;
 }
 
 #image {
@@ -21,7 +21,6 @@
   height: auto;
   margin: 80px;
   display: block;
-  
 }
 
 #image2 {
@@ -45,7 +44,7 @@ a {
   position: absolute;
   width: 629px;
   height: 176px;
-  left: 600px;
+  left: 750px;
   top: 430px;
   font-weight: 900;
   font-size: 48px;
@@ -86,11 +85,6 @@ a {
   margin-bottom: 110px;
 }
 
-footer {
-  text-align: center;
-  margin: 35px 132px 0px 0px;
-}
-
 
 
 #tribute-info {
@@ -105,7 +99,7 @@ footer {
   position: absolute;
   width: 10px;
   height: 467px;
-  left: 920px;
+  left: 1050px;
   top: 400px;
   background: linear-gradient(
     180deg,
