@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.containerLeft {
+  background-color: black;
+  height: 100vh;
+}
+
+#image {
+  max-width: 400px;
+  height: auto;
+  margin: 80px;
+  display: block;
+  
+}
+
+#image2 {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.quote {
+  color: white;
+  position: absolute;
+  width: 629px;
+  height: 176px;
+  left: 600px;
+  top: 430px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#title {
+  position: absolute;
+  height: 44px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 117px;
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.title {
+  position: absolute;
+  width: 513px;
+  height: 117px;
+  left: 50px;
+  top: 620px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 117px;
+}
+
+#img-caption {
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+footer {
+  text-align: center;
+  margin: 35px 132px 0px 0px;
+}
+
+
+
+#tribute-info {
+  margin: 150px 25px 25px 25px;
+}
+
+#tribute-link {
+  margin: 0px 25px 25px;
+}
+
+.lgbt {
+  position: absolute;
+  width: 10px;
+  height: 467px;
+  left: 920px;
+  top: 400px;
+  background: linear-gradient(
+    180deg,
+    #ea0000 0%,
+    rgba(241, 72, 0, 0.864583) 18.75%,
+    #ffe815 35.94%,
+    #3c8d27 54.69%,
+    #192ac1 77.6%,
+    #6f139b 93.23%
+  );
+  border-radius: 50px;
+  transform: rotate(-90deg);
+}
